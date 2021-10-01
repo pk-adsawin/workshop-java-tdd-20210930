@@ -74,18 +74,6 @@ class RegisterBusinessTest {
       assertEquals("Email is required.", exception.getMessage());
    }
 
-   // @Test
-   // public void case031() {
-   // RegisterBusiness business = new RegisterBusiness();
-   // Speaker speaker = new Speaker();
-   // speaker.setFirstName("first");
-   // speaker.setLastName("");
-   // Exception exception = assertThrows(ArgumentNullException.class, () -> {
-   // business.register(null, speaker);
-   // });
-   // assertEquals("Email is required.", exception.getMessage());
-   // }
-
    @Test
    public void case04() {
       RegisterBusiness business = new RegisterBusiness();
